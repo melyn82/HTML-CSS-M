@@ -1,7 +1,6 @@
 body{
     margin: 0;
     border: none;
-    background-color: black;
 }
 
 ul{
@@ -12,6 +11,16 @@ ul{
     width: 95%;
     margin: 0 auto;
     direction: rtl;
+}
+
+/* nav{
+    width:100% ;
+} */
+
+input{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 50px;
 }
 
 .inline{
@@ -28,4 +37,74 @@ li:first-child{
 a{
     text-decoration: none;
     color: aliceblue;
+}
+
+.back-ground{
+    background-color: blueviolet;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+header{
+    position: fixed ;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 1;
+
+}
+
+.back-ground video{
+    width: 100%;
+    /* object-fit: cover; */
+    position: relative;
+}
+
+.back-ground-2{
+    background-color:#FAFAFA;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -10px;
+    padding: 0;
+}
+
+.back-ground-2 img{
+    max-height: 100%;
+    display: inline-block;
+}
+
+.text-container{
+    display: inline-block;
+    width: 39%;
+    height: 100%;
+    display: inline-block;
+    margin-left: -10px;
+    float: right;
+}
+
+.text-s2{
+    margin-top:40vh ;
+}
+
+.image-container{
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+    overflow: hidden;
+}
+
+
+.fa-apple{
+    font-size: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.logo{
+    float: left;
+}
+
+.text-s2 h1{
+    font-size: 100px;
 }
