@@ -39,7 +39,7 @@ a{
     color: aliceblue;
 }
 
-.back-ground{
+.back-ground-1{
     background-color: blueviolet;
     width: 100%;
     height: 50vh;
@@ -54,7 +54,7 @@ header{
 
 }
 
-.back-ground video{
+.back-ground-1 video{
     width: 100%;
     /* object-fit: cover; */
     position: relative;
@@ -107,4 +107,32 @@ header{
 
 .text-s2 h1{
     font-size: 100px;
+}
+
+.btn-s2{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+}
+
+button{
+    font-size: 30px;
+}
+
+.back-ground-3{
+    background-color:#FAFAFA;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -10px;
+    padding: 0;
+}
+
+.image-container-2{
+    width: 90%;
+    height: 100vh;
+    display: inline-block;
+    overflow: hidden;
+    object-position: center;
 }
